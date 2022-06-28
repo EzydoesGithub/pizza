@@ -10,7 +10,7 @@ local TextLabel = Instance.new("TextLabel")
 --Properties:
 
 Pizza1.Name = "Pizza1"
-Pizza1.Parent = game.Workspace
+Pizza1.Parent = game.CoreGui
 
 Frame.Name = "Frame"
 Frame.Parent = Pizza1
