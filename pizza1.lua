@@ -20,3 +20,4 @@ end
 
 
 fireproximityprompt(Workspace.MapStuff.Jobs.PizzaJob.JobBoard.Start.ProximityPrompt, 1, true) --game:GetService("Workspace").MapStuff.Jobs.PizzaJob.JobBoard.Start.ProximityPrompt
+--ezy is a good dev@!
