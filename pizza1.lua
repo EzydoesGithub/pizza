@@ -31,7 +31,6 @@ TextLabel.Font = Enum.Font.GothamBold
 TextLabel.Text = "Start working by pressing \"E\" before timer ends. (3.5s)"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel.TextSize = 13.000
-TextLabel.MouseButton1Click:Connect(function()
 	wait(1.5)
 	TextLabel.Text = "Start working by pressing \"E\" before timer ends. (2.0s)"
 	wait(1)
@@ -39,4 +38,5 @@ TextLabel.MouseButton1Click:Connect(function()
 	wait(1)
 	TextLabel.Text = "Start working by pressing \"E\" before timer ends. (0.0s)"
 	wait(0.2)
-end)
+        game.CoreGui.ScreenGui:Remove()
+
