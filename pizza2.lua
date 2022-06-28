@@ -41,5 +41,5 @@ TextLabel.TextSize = 13.000
 	wait(0.2)
         TextLabel.Text = "Getting ready to teleport you<3"
 wait(1)
-    game.CoreGui.Pizza1:Remove()
+    Frame.Visible = false
 
