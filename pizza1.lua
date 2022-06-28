@@ -28,15 +28,15 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.Size = UDim2.new(0, 388, 0, 59)
 TextLabel.Font = Enum.Font.GothamBold
-TextLabel.Text = "Start working by pressing \\\"E\\\" before timer ends. (3.5s)"
+TextLabel.Text = "Start working by pressing \"E\" before timer ends. (3.5s)"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel.TextSize = 13.000
 TextLabel.MouseButton1Click:Connect(function()
 	wait(1.5)
-	TextLabel.Text = "Start working by pressing \\\"E\\\" before timer ends. (2.0s)"
+	TextLabel.Text = "Start working by pressing \"E\" before timer ends. (2.0s)"
 	wait(1)
-	TextLabel.Text = "Start working by pressing \\\"E\\\" before timer ends. (1.0s)"
+	TextLabel.Text = "Start working by pressing \"E\" before timer ends. (1.0s)"
 	wait(1)
-	TextLabel.Text = "Start working by pressing \\\"E\\\" before timer ends. (0.0s)"
+	TextLabel.Text = "Start working by pressing \"E\" before timer ends. (0.0s)"
 	wait(0.2)
 end)
