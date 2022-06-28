@@ -39,5 +39,5 @@ TextLabel.TextSize = 13.000
 	wait(1)
 	TextLabel.Text = "Start working by pressing \"E\" before timer ends. (0.0s)"
 	wait(0.2)
-        game.CoreGui.Pizza1:Remove()
+        Frame.Visible = false
 
