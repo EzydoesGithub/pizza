@@ -3,16 +3,17 @@
 
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
+local Pizza1 = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+Pizza1.Name = "Pizza1"
+Pizza1.Parent = game.CoreGui
 
 Frame.Name = "Frame"
-Frame.Parent = ScreenGui
+Frame.Parent = Pizza1
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.Position = UDim2.new(0.352763057, 0, 0.0595947541, 0)
@@ -28,7 +29,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.Size = UDim2.new(0, 388, 0, 59)
 TextLabel.Font = Enum.Font.GothamBold
-TextLabel.Text = "Collect Pizza box pressing \"E\" before timer ends. (3.5s)"
+TextLabel.Text = "Start working by pressing \\\"E\\\" before timer ends. (3.5s)"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel.TextSize = 13.000
 	wait(1.5)
@@ -40,5 +41,5 @@ TextLabel.TextSize = 13.000
 	wait(0.2)
         TextLabel.Text = "Getting ready to teleport you<3"
 wait(1)
-    game.CoreGui.ScreenGui:Remove()
+    game.CoreGui.Pizza1:Remove()
 
